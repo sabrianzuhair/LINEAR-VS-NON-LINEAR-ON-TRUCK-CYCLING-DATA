@@ -1,0 +1,94 @@
+|--- weather_score <= 3.66
+|   |--- loc_Front Wales <= 0.50
+|   |   |--- truck_id <= 11.50
+|   |   |   |--- hauling_distance <= 8.53
+|   |   |   |   |--- hauling_distance <= 6.44
+|   |   |   |   |   |--- value: [52.62]
+|   |   |   |   |--- hauling_distance >  6.44
+|   |   |   |   |   |--- value: [52.14]
+|   |   |   |--- hauling_distance >  8.53
+|   |   |   |   |--- shift <= 0.50
+|   |   |   |   |   |--- value: [52.88]
+|   |   |   |   |--- shift >  0.50
+|   |   |   |   |   |--- value: [53.84]
+|   |   |--- truck_id >  11.50
+|   |   |   |--- truck_id <= 13.50
+|   |   |   |   |--- hauling_distance <= 6.59
+|   |   |   |   |   |--- value: [51.37]
+|   |   |   |   |--- hauling_distance >  6.59
+|   |   |   |   |   |--- value: [50.56]
+|   |   |   |--- truck_id >  13.50
+|   |   |   |   |--- truck_id <= 18.50
+|   |   |   |   |   |--- value: [52.28]
+|   |   |   |   |--- truck_id >  18.50
+|   |   |   |   |   |--- value: [50.96]
+|   |--- loc_Front Wales >  0.50
+|   |   |--- truck_id <= 11.50
+|   |   |   |--- truck_id <= 10.50
+|   |   |   |   |--- truck_id <= 1.50
+|   |   |   |   |   |--- value: [46.32]
+|   |   |   |   |--- truck_id >  1.50
+|   |   |   |   |   |--- value: [45.84]
+|   |   |   |--- truck_id >  10.50
+|   |   |   |   |--- shift <= 0.50
+|   |   |   |   |   |--- value: [47.40]
+|   |   |   |   |--- shift >  0.50
+|   |   |   |   |   |--- value: [46.55]
+|   |   |--- truck_id >  11.50
+|   |   |   |--- hauling_distance <= 7.43
+|   |   |   |   |--- shift <= 0.50
+|   |   |   |   |   |--- value: [45.31]
+|   |   |   |   |--- shift >  0.50
+|   |   |   |   |   |--- value: [44.83]
+|   |   |   |--- hauling_distance >  7.43
+|   |   |   |   |--- shift <= 0.50
+|   |   |   |   |   |--- value: [45.31]
+|   |   |   |   |--- shift >  0.50
+|   |   |   |   |   |--- value: [46.35]
+|--- weather_score >  3.66
+|   |--- weather_score <= 3.98
+|   |   |--- road_condition_score <= 3.30
+|   |   |   |--- truck_id <= 0.50
+|   |   |   |   |--- hauling_distance <= 5.04
+|   |   |   |   |   |--- value: [38.99]
+|   |   |   |   |--- hauling_distance >  5.04
+|   |   |   |   |   |--- value: [38.41]
+|   |   |   |--- truck_id >  0.50
+|   |   |   |   |--- hauling_distance <= 8.97
+|   |   |   |   |   |--- value: [40.36]
+|   |   |   |   |--- hauling_distance >  8.97
+|   |   |   |   |   |--- value: [39.43]
+|   |   |--- road_condition_score >  3.30
+|   |   |   |--- truck_id <= 16.50
+|   |   |   |   |--- truck_id <= 14.50
+|   |   |   |   |   |--- value: [35.27]
+|   |   |   |   |--- truck_id >  14.50
+|   |   |   |   |   |--- value: [36.23]
+|   |   |   |--- truck_id >  16.50
+|   |   |   |   |--- truck_speed <= 23.90
+|   |   |   |   |   |--- value: [36.48]
+|   |   |   |   |--- truck_speed >  23.90
+|   |   |   |   |   |--- value: [34.98]
+|   |--- weather_score >  3.98
+|   |   |--- hauling_distance <= 4.24
+|   |   |   |--- truck_id <= 4.00
+|   |   |   |   |--- shift <= 0.50
+|   |   |   |   |   |--- value: [29.31]
+|   |   |   |   |--- shift >  0.50
+|   |   |   |   |   |--- value: [30.22]
+|   |   |   |--- truck_id >  4.00
+|   |   |   |   |--- shift <= 0.50
+|   |   |   |   |   |--- value: [30.87]
+|   |   |   |   |--- shift >  0.50
+|   |   |   |   |   |--- value: [31.47]
+|   |   |--- hauling_distance >  4.24
+|   |   |   |--- truck_id <= 2.50
+|   |   |   |   |--- hauling_distance <= 5.56
+|   |   |   |   |   |--- value: [29.46]
+|   |   |   |   |--- hauling_distance >  5.56
+|   |   |   |   |   |--- value: [30.13]
+|   |   |   |--- truck_id >  2.50
+|   |   |   |   |--- hauling_distance <= 4.39
+|   |   |   |   |   |--- value: [30.94]
+|   |   |   |   |--- hauling_distance >  4.39
+|   |   |   |   |   |--- value: [30.11]

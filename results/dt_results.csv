@@ -1,0 +1,2 @@
+Model,R2_Train,R2_Val,R2_Test,MAE,RMSE,CV_R2_Mean,CV_R2_Std,Best_Params,Tree_Depth,N_Leaves,Tuning_Time
+Decision Tree,0.773592754752479,0.7731572309192216,0.7713242538164101,3.2607830038118903,4.166742994715443,0.7726553063864133,0.0031086014282971524,"{'max_depth': 5, 'max_features': None, 'min_samples_leaf': 8, 'min_samples_split': 2}",5,32,57.04082894325256

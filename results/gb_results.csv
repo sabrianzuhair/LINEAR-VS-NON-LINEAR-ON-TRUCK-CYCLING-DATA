@@ -1,0 +1,2 @@
+Model,R2_Train,R2_Val,R2_Test,MAE,RMSE,CV_R2_Mean,CV_R2_Std,Best_Params,Best_Iteration,Tuning_Time
+Gradient Boosting,0.7839013712959658,0.776909604019563,0.775654734477689,3.2196870250871843,4.127101177466625,0.7765304368881044,0.0025509257800935274,"{'subsample': 0.7, 'n_estimators': 150, 'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'log2', 'max_depth': 6, 'loss': 'squared_error', 'learning_rate': 0.05}",148,223.7771577835083

@@ -1,0 +1,2 @@
+Model,R2_Train,R2_Val,R2_Test,MAE,RMSE,OOB_Score,CV_R2_Mean,CV_R2_Std,Best_Params,N_Estimators,Tuning_Time
+Random Forest,0.7873967127277197,0.7772163885994091,0.7756434812511879,3.222260735519473,4.127204684491496,0.7767230676248313,0.776676017847169,0.002457099806120512,"{'oob_score': True, 'n_estimators': 200, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'log2', 'max_depth': 10, 'bootstrap': True}",200,224.34145164489746
